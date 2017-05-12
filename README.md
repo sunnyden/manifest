@@ -1,4 +1,4 @@
-The Android Open Source Project Nougat 7.0.0
+The Android Open Source Project Nougat 7.1.0
 ===========
 
 To initialize your local repository using the AOSP trees, use a command like this:
