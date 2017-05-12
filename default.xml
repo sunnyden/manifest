@@ -280,7 +280,7 @@
   <project path="external/tcpdump" name="platform/external/tcpdump" groups="pdk,pdk-cw-fs,pdk-fs" />
   <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" groups="pdk-cw-fs,pdk-fs" />
   <project name="LineageOS/android_external_tinyalsa" path="external/tinyalsa" groups="pdk" remote="github" revision="cm-14.1" />
-  <project name="F-AOSP/platform_external_tinycompress" path="external/tinycompress" groups="pdk" remote="github" revision="nougat-mr1" />
+  <project name="platform/external/tinycompress" path="external/tinycompress" groups="pdk"/>
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" />
   <project path="external/tlsdate" name="platform/external/tlsdate" />
@@ -304,7 +304,7 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
-  <project name="F-AOSP/platform_frameworks_av" path="frameworks/av" groups="pdk" remote="github" revision="nougat-mr1" />
+  <project name="platform/frameworks/av" path="frameworks/av" groups="pdk"/>
   <project name="platform/frameworks/base" path="frameworks/base" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
@@ -313,7 +313,7 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" />
-  <project name="F-AOSP/platform_frameworks_native" path="frameworks/native" groups="pdk" remote="github" revision="nougat-mr1" />
+  <project name="platform/frameworks/native" path="frameworks/native" groups="pdk" remote="github"/>
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" />
@@ -326,10 +326,10 @@
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" groups="pdk-fs" />
   <project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" groups="pdk-cw-fs,pdk-fs" />
-  <project name="F-AOSP/platform_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" groups="pdk" remote="github" revision="nougat-mr1" />
+  <project name="platform/frameworks/opt/net/wifi" path="frameworks/opt/net/wifi" groups="pdk"/>
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs,pdk-fs" />
-  <project name="F-AOSP/platform_frameworks_opt_telephony" path="frameworks/opt/telephony" groups="pdk" remote="github" revision="nougat-mr1" />
+  <project name="platform/frameworks/opt/telephony" path="frameworks/opt/telephony" groups="pdk"/>
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
@@ -375,7 +375,7 @@
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" groups="generic_fs" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
-  <project name="F-AOSP/platform_packages_apps_Bluetooth" path="packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="github" revision="nougat-mr1" />
+  <project name="platform/packages/apps/Bluetooth" path="packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs"/>
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" groups="pdk-fs" revision="marshmallow-release" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" groups="pdk-fs" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" groups="pdk-fs" />
@@ -385,9 +385,9 @@
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" groups="pdk-fs" />
   <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" groups="pdk-fs" />
-  <project name="F-AOSP/platform_packages_apps_DeskClock" path="packages/apps/DeskClock" groups="pdk-fs" remote="github" revision="nougat-mr1" />
+  <project name="platform/packages/apps/DeskClock" path="packages/apps/DeskClock" groups="pdk-fs"/>
   <project path="packages/apps/DevCamera" name="platform/packages/apps/DevCamera" groups="pdk" />
-  <project name="F-AOSP/platform_packages_apps_Dialer" path="packages/apps/Dialer" groups="pdk-fs" remote="github" revision="nougat-mr1" />
+  <project name="platform/packages/apps/Dialer" path="packages/apps/Dialer" groups="pdk-fs" remote="github" revision="nougat-mr1" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" groups="pdk-fs" />
   <project path="packages/apps/EmergencyInfo" name="platform/packages/apps/EmergencyInfo" />
   <project path="packages/apps/ExactCalculator" name="platform/packages/apps/ExactCalculator" groups="pdk-fs" />
@@ -404,20 +404,20 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="pdk-fs" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" />
   <project path="packages/apps/SafetyRegulatoryInfo" name="platform/packages/apps/SafetyRegulatoryInfo" />
-  <project name="F-AOSP/platform_packages_apps_Settings" path="packages/apps/Settings" groups="pdk-fs" remote="github" revision="nougat-mr1" />
+  <project name="platform/packages/apps/Settings" path="packages/apps/Settings" groups="pdk-fs"/>
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" groups="pdk-fs" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" groups="pdk-fs" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" groups="pdk-fs" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" groups="apps_stk,pdk-fs" />
   <project path="packages/apps/StorageManager" name="platform/packages/apps/StorageManager" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" groups="pdk-fs" />
-  <project name="F-AOSP/platform_packages_apps_Terminal" path="packages/apps/Terminal" groups="pdk-fs" remote="github" revision="nougat-mr1" />
+  <project name="platform/packages/apps/Terminal" path="packages/apps/Terminal" groups="pdk-fs"/>
   <project path="packages/apps/Test/connectivity" name="platform/packages/apps/Test/connectivity" />
   <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" groups="generic_fs" />
   <project path="packages/apps/TV" name="platform/packages/apps/TV" />
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" groups="pdk-fs" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project name="F-AOSP/platform_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="github" revision="nougat-mr1" />
+  <project name="platform/packages/inputmethods/LatinIME" path="packages/inputmethods/LatinIME"/>
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" groups="pdk-fs" />
   <project path="packages/providers/BlockedNumberProvider" name="platform/packages/providers/BlockedNumberProvider" groups="pdk-fs" />
   <project path="packages/providers/BookmarkProvider" name="platform/packages/providers/BookmarkProvider" groups="pdk-fs" />
@@ -427,7 +427,7 @@
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" groups="pdk-fs" />
-  <project name="F-AOSP/platform_packages_providers_TelephonyProvider" path="packages/providers/TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="github" revision="nougat-mr1" />
+  <project name="platform/packages/providers/TelephonyProvider" path="packages/providers/TelephonyProvider" groups="pdk-cw-fs,pdk-fs"/>
   <project path="packages/providers/TvProvider" name="platform/packages/providers/TvProvider" groups="pdk-fs" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" groups="pdk-fs" />
@@ -435,8 +435,8 @@
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" groups="pdk-fs" />
   <project path="packages/services/Car" name="platform/packages/services/Car" groups="adp8064,pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Mms" name="platform/packages/services/Mms" groups="pdk-cw-fs,pdk-fs" />
-  <project name="F-AOSP/platform_packages_services_Telecomm" path="packages/services/Telecomm" groups="pdk-cw-fs,pdk-fs" remote="github" revision="nougat-mr1" />
-  <project name="F-AOSP/platform_packages_services_Telephony" path="packages/services/Telephony" groups="pdk-cw-fs,pdk-fs" remote="github" revision="nougat-mr1" />
+  <project name="platform/packages/services/Telecomm" path="packages/services/Telecomm" groups="pdk-cw-fs,pdk-fs"/>
+  <project name="platform/packages/services/Telephony" path="packages/services/Telephony" groups="pdk-cw-fs,pdk-fs"/>
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" groups="pdk-fs" />
   <project path="pdk" name="platform/pdk" groups="pdk" />
   <project path="platform_testing" name="platform/platform_testing" />
@@ -473,8 +473,8 @@
   <project path="system/connectivity/apmanager" name="platform/system/connectivity/apmanager" />
   <project path="system/connectivity/dhcp_client" name="platform/system/connectivity/dhcp_client" />
   <project path="system/connectivity/shill" name="platform/system/connectivity/shill" />
-  <project name="F-AOSP/platform_system_core" path="system/core" groups="pdk" remote="github" revision="nougat-mr1" />
-  <project name="F-AOSP/platform_system_extras" path="system/extras" groups="pdk" remote="github" revision="nougat-mr1" />
+  <project name="platform/system/core" path="system/core" groups="pdk"/>
+  <project name="platform/system/extras" path="system/extras" groups="pdk"/>
   <project path="system/firewalld" name="platform/system/firewalld" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
@@ -484,11 +484,11 @@
   <project path="system/nvram" name="platform/system/nvram" />
   <project name="LineageOS/android_system_qcom" path="system/qcom" groups="pdk" remote="github" revision="cm-14.1" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
-  <project name="F-AOSP/platform_system_sepolicy" path="system/sepolicy" groups="pdk" remote="github" revision="nougat-mr1" />
+  <project name="platform/system/sepolicy" path="system/sepolicy" groups="pdk"/>
   <project path="system/tools/aidl" name="platform/system/tools/aidl" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/tpm" name="platform/system/tpm" />
   <project path="system/update_engine" name="platform/system/update_engine" />
-  <project name="F-AOSP/platform_system_vold" path="system/vold" groups="pdk" remote="github" revision="nougat-mr1" />
+  <project name="platform/system/vold" path="system/vold" groups="pdk"/>
   <project path="system/weaved" name="platform/system/weaved" />
   <project path="system/webservd" name="platform/system/webservd" />
   <project path="toolchain/binutils" name="toolchain/binutils" />
@@ -505,6 +505,6 @@
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
   <project name="F-AOSP/platform_vendor_aosp" path="vendor/aosp" remote="github" revision="nougat-mr1-staging" />
-  <project name="F-AOSP/platform_vendor_qcom_opensource_bluetooth" path="vendor/qcom/opensource/bluetooth" remote="github" revision="nougat-mr1" />
+  <project name="LineageOS/android_vendor_qcom_opensource_bluetooth" path="vendor/qcom/opensource/bluetooth" remote="github" revision="nougat-mr1" />
 
 </manifest>
