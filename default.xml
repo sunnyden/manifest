@@ -10,7 +10,7 @@
   <remote  name="aosp"
            fetch="https://aosp.tuna.tsinghua.edu.cn" />
 
-  <default revision="refs/tags/android-7.1.0_r4"
+  <default revision="refs/tags/android-7.1.2_r8"
            remote="aosp"
            sync-j="4" />
 
@@ -361,7 +361,7 @@
   <project name="LineageOS/android_hardware_libhardware" path="hardware/libhardware" groups="pdk" remote="github" revision="cm-14.1" />
   <project name="LineageOS/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" groups="pdk" remote="github" revision="cm-14.1" />
   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt" />
-  <project name="LineageOS/android_hardware_qcom_audio" path="hardware/qcom/audio/default" groups="qcom,qcom_audio" remote="github" revision="cm-14.1" />
+  <project path="hardware/qcom/audio/default" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" />
   <project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" groups="pdk" />
   <project name="LineageOS/android_hardware_qcom_bt" path="hardware/qcom/bt-caf" groups="qcom" remote="github" revision="cm-14.1-caf" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
@@ -369,7 +369,7 @@
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps" />
   <project name="LineageOS/android_hardware_qcom_keymaster" path="hardware/qcom/keymaster" groups="qcom,qcom_keymaster" remote="github" revision="cm-14.1" />
   <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom" />
-  <project name="LineageOS/android_hardware_qcom_wlan" path="hardware/qcom/wlan-caf" groups="qcom_wlan" remote="github" revision="cm-14.1-caf" />
+  <project path="hardware/qcom/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk" />
   <project name="LineageOS/android_hardware_ril" path="hardware/ril-caf" groups="pdk" remote="github" revision="cm-14.1-caf" />
   <project path="libcore" name="platform/libcore" groups="pdk" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
